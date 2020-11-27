@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.json({ "message": "MongoDb Node Starter Sample Code" });
 });
 // other routes
-require('../services/mongo-services')(app);
+require('../services/mflix-services')(app);
 
 // Configuring the database
 const dbConfig = require('../config/config');
