@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dipenpatel0810/mongodb-node-starter/issues"
   },
-  "homepage": "https://github.com/dipenpatel0810/mongodb-node-starter#readme"
+  "homepage": "https://github.com/dipenpatel0810/mongodb-node-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.16"
+  }
 }
